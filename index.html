@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Главная</title>
+        
+    </head>
+    <body>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">The Люди</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Главная</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Задачи</a></li>
+                        <li class="nav__item"><a href="#menu" class="nav__link">Новости</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title">The Люди</h1>
+                        <h2 class="home__subtitle">Победим <br> "РТБЛ".</h2>
+                    </div>
+    
+                    <img src="assets/img/кулак.png" alt="" class="home__img">
+                </div>
+            </section>
+
+            <div class="time-count">
+                <h2 class="time-count__title">До Митинга осталось</h2>
+                <div class="time-count__content">
+                    <div class="time-count__item time-count__days">
+                        <div class="time-count__val">00</div>
+                        <span class="time-count__text">дней</span>
+                    </div>
+                    <div class="time-count__separator">:</div>
+                    <div class="time-count__item time-count__hours">
+                        <div class="time-count__val">00</div>
+                        <span class="time-count__text">часов</span>
+                    </div>
+                    <div class="time-count__separator">:</div>
+                    <div class="time-count__item time-count__minutes">
+                        <div class="time-count__val">00</div>
+                        <span class="time-count__text">минут</span>
+                    </div>
+                    <div class="time-count__separator">:</div>
+                    <div class="time-count__item time-count__seconds">
+                        <div class="time-count__val">00</div>
+                        <span class="time-count__text">секунд</span>
+                    </div>
+                </div>
+            </div>
+
+            <!--========== ABOUT ==========-->
+            <section class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">Задачи партии</span>
+                        <h2 class="section-title about__initial">Мы сделаем страну <br> лучше</h2>
+                        <p class="about__description">
+                        1. Свергнуть партию "РТБЛ"
+                        <br>
+                        2. Убрать все принятые ими законы
+                        <br>
+                        3. Установить режим правления в стране: Демократический</p>
+                    </div>
+
+                    <img src="assets/img/png-transparent-notebook-computer-icons-paper-organization-notebook-miscellaneous-angle-pencil-removebg-preview.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== Новости ==========-->
+            <section class="menu section bd-container" id="menu">
+                <span class="section-subtitle">Новости</span>
+                <h2 class="section-title">Новости недели</h2>
+
+                <div class="menu__container bd-grid">
+                    <div class="menu__content">
+                        <img src="assets/img/plate1.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Создание партии</h3>
+                        <span class="menu__detail">05.11.2021 мы подали заявку на основание партии "The Люди". Теперь наша партия борется за справедливость и демократию в стране.</span>
+                    </div>
+
+                    <div class="menu__content">
+                        <img src="assets/img/plate2.png" alt="" class="menu__img">
+                        <h3 class="menu__name">Первый митинг</h3>
+                        <span class="menu__detail">05.11.2021 партия "The Люди" провела митинг. Он был создан против партии "РТБЛ". Наши требования не были выполнены, однако с нами связались и смягчили пару законов.</span>
+                    </div>
+                    
+                    <div class="menu__content">
+                        <img src="assets/img/plate3.png" alt="" class="menu__img">
+                        <h3 class="menu__name">ЧП в стране</h3>
+                        <span class="menu__detail">После митинга власти ввели Чрезвычайное Положение. Поэтому митинг 06.11.2021 будет проведён онлайн. Об этом вы узнаете позже.</span>
+                    </div>
+                </div>
+            </section>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <p class="footer__copy">&#169; 2021 dogushka. Все права защищены.</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+        <script src="assets/js/taimer.js"></script>
+    </body>
+</html>
